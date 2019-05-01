@@ -1,3 +1,38 @@
-h1 {
-    color:red;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.square {
+    width: 29.3%;
+    background-color: green;
+    padding-bottom: 29.5%;
+    margin: 2%;
+    border-radius: 20%;
+    float: left;
+    transition: background 0.8s;
+}
+
+.square.winner {
+    background: gold;
+}
+
+.square.loser {
+    background: gray;
+}
+
+.tryAgainInactive {
+    background: white;
+}
+
+.tryAgainActive {
+    width: 29.3%;
+    background-color: red;
+    padding-bottom: 29.5%;
+    margin: 2%;
+    border-radius: 20%;
+    float: left;
+    transition: background 0.8s;
 }
